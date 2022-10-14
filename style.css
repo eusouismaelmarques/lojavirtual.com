@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Estrutura do Site */
+
+    .loja-body{
+        background-color:;
+        display: grid;
+        gap: 5px;
+        max-width: 1140px;
+        margin: 0 auto;
+        grid-template-rows:auto auto auto auto ;
+        grid-template-areas: 
+
+        "header header   header   header   header"
+        "ctg    conteudo conteudo conteudo conteudo"
+        "espe   conteudo conteudo conteudo conteudo"
+        ".      paginas  paginas  paginas  paginas"
+        "footer footer   footer   footer   footer"
+        ;
+    }
+    .container{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+    .loja-header{
+        background-color: blue;
+        grid-area: header;
+    }
+    .loja-section--conteudo{
+        background-color: blueviolet;
+        grid-area: conteudo;
+    }
+    .loja-section--ctg{
+        background-color: brown;
+        grid-area: ctg;
+    }
+    .loja-section--espe{
+        background-color: burlywood;
+        grid-area: espe;
+    }
+    .loja-section--paginas{
+        background-color: rgb(255, 106, 0);
+        grid-area: paginas;
+    }
+    .loja-footer{
+        background-color: cadetblue;
+        grid-area: footer;
+    }
+
+
+
+
+/* Fim da Estrutura do Site */
+
+/*Header*/
+header{
+    background-color: rgb(230, 3, 3)
+}
+.promo-relanpago{
+    background-color: aqua;
+}
+.informacoes-sociais--area{
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.categorias
+
+
+.loja-header--top{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.categorias{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+/* Produtos */
+.loja-section--conteudo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.produto{
+    background-color: chartreuse;
+    width: 150px;
+    height: 180px;
+    margin: 10px;
+}
+
+/* Footer */
+
+footer{
+    background-color: rgb(67, 155, 155);
+}
